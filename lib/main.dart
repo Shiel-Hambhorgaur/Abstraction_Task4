@@ -4,7 +4,7 @@ import 'jeepney_transport.dart';
 void main() {
   print("\n\n===============TRAVEL SERVICE DEMO INTEGRATION===============\n");
 
-  print("🚐🚐🚐  IMPLEMENTATION A  🚐🚐🚐 ");
+  print("🚐🚐🚐 IMPLEMENTATION A 🚐🚐🚐 ");
 
   var jeepneyService = TravelService(JeepneyTransport());
   
