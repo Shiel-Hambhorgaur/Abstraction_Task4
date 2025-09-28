@@ -9,7 +9,7 @@ void main() {
   print("🚐🚐🚐  IMPLEMENTATION A  🚐🚐🚐 ");
   var jeepneyService = TravelService(JeepneyTransport());
   
-  print("Show Transport Information (Jeepney)");
+  print("Show Transport Information (Jeepney):");
   jeepneyService.showTransportInfo();
   
   print("Plan a Trip (Jeepney):");
@@ -24,7 +24,7 @@ void main() {
   print("🏍️🏍️🏍️ IMPLEMENTATION B 🏍️🏍️🏍️ ");
   var habalHabalService = TravelService(HabalHabalTransport());
   
-  print("Show Transport Information (Habal-Habal)");
+  print("Show Transport Information (Habal-Habal):");
   habalHabalService.showTransportInfo();
   
   print("Plan a Trip (Habal-Habal):");
