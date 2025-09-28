@@ -1,16 +1,18 @@
 import 'transport_method.dart';
 
-class JeepneyTransport implements TransportMethod {
+class HabalHabalTransport implements TransportMethod {
   @override
   String startEngine() {
-    return ""; 
+    return "";
   }
+  
   @override
   String getTransportType() {
-    return "Jeepney🚐";
+    return "Habal-Habal🏍️";
   }
+  
   @override
   String estimateTime(String destination) {
-    return "25 minutes to $destination by jeepney.";
+    return "15 minutes to $destination by habal-habal.";
   }
 }
