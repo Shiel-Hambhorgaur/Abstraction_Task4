@@ -24,13 +24,13 @@ void main() {
   print("🏍️🏍️🏍️ IMPLEMENTATION B 🏍️🏍️🏍️ ");
   var habalHabalService = TravelService(HabalHabalTransport());
   
-  print("\nShow Transport Information (Habal-Habal)");
+  print("Show Transport Information (Habal-Habal)");
   habalHabalService.showTransportInfo();
   
-  print("\nPlan a Trip (Habal-Habal):");
+  print("Plan a Trip (Habal-Habal):");
   habalHabalService.planTrip("BiPSU");
   
-  print("\nBegin Journey (Habal-Habal):");
+  print("Begin Journey (Habal-Habal):");
   habalHabalService.beginJourney("Passenger");
   
   print("\n--- END OF IMPLEMENTATION B ---\n");
