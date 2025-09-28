@@ -1,19 +1,19 @@
 import 'travel_service.dart';
-import 'jeepney_transport.dart';
+import 'habalhabal_transport.dart';
 
 void main() {
   print("\n\n===============TRAVEL SERVICE DEMO INTEGRATION===============\n");
 
-  print("🚐🚐🚐 IMPLEMENTATION A 🚐🚐🚐 ");
+  print("🏍️🏍️🏍️ IMPLEMENTATION B 🏍️🏍️🏍️ ");
 
-  var jeepneyService = TravelService(JeepneyTransport());
+  var habalHabalService = TravelService(HabalHabalTransport());
   
-  print("Show Transport Information");
-  jeepneyService.showTransportInfo();
+  print("\nShow Transport Information:");
+  habalHabalService.showTransportInfo();
   
-  print("Plan a Trip:");
-  jeepneyService.planTrip("Pantalan Terminal");
+  print("\nPlan a Trip:");
+  habalHabalService.planTrip("BiPSU");
   
-  print("Begin Journey:");
-  jeepneyService.beginJourney("Passenger");
+  print("\nBegin Journey:");
+  habalHabalService.beginJourney("Passenger");
 }
